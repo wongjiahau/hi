@@ -2,9 +2,9 @@ name:                hi
 version:             0.1.0.0
 github:              "githubuser/hi"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2018 Author name here"
+author:              "Wong Jia Hau"
+maintainer:          "hou32hou@gmail.com"
+copyright:           "2019 Wong Jia Hau"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,10 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- text
+- filepath
+- containers
+
 
 library:
   source-dirs: src
@@ -46,3 +50,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - hi
+    
